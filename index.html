@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Muhindo Kisumba Espoir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Muhindo Kisumba Espoir</h1>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Développeur Python</h2>
+        <p>Je crée des solutions logicielles efficaces et élégantes avec Python.</p>
+        <a href="#projects" class="btn">Voir mes projets</a>
+    </section>
+
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>
+            Passionné par la programmation et les nouvelles technologies, 
+            je suis un développeur Python spécialisé dans l'automatisation, 
+            le développement web et l'analyse de données.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Compétences</h2>
+        <div class="skills-grid">
+            <div class="skill">Python</div>
+            <div class="skill">Flask / Django</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">HTML / CSS</div>
+            <div class="skill">SQL / SQLite</div>
+            <div class="skill">Git / GitHub</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projets récents</h2>
+        <div class="projects-grid">
+            <div class="project">
+                <h3>Analyseur de données</h3>
+                <p>Un script Python qui nettoie, analyse et visualise des données CSV automatiquement.</p>
+            </div>
+            <div class="project">
+                <h3>API Flask</h3>
+                <p>Une API REST construite avec Flask pour gérer une base de données de produits.</p>
+            </div>
+            <div class="project">
+                <h3>Bot Telegram</h3>
+                <p>Un bot intelligent développé en Python qui répond automatiquement aux messages des utilisateurs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Tu veux collaborer ? Contacte-moi :</p>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Nom" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="message" placeholder="Message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+        <p id="status"></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Muhindo Kisumba Espoir | Tous droits réservés</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
